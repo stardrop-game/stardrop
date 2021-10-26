@@ -17,4 +17,4 @@ github: amaynez/GameOfLife/
 <h3>BPM : 105</h3>
 <h3>Difficulty : Normal</h3>
 
-<iframe width="100%" src="https://www.youtube.com/embed/rLLAT_elGD8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height ="100%" src="https://www.youtube.com/embed/rLLAT_elGD8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
