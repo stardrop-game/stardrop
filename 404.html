@@ -1,10 +1,21 @@
 ---
-layout: default
-title: Page not found
+layout: home-page
 permalink: /404.html
+title: Sorry 
 ---
-<div style="text-align: center">
-  <h1 style="font-size: 54px; margin: 15px 0px; line-height: 1;">{{ page.title }}</h1>
-  <p><strong>The requested page could not be found.</strong></p>
-  <p><a href="{{site.baseurl}}/">Back to the bLog</a></p>
-</div>
+{% include calculate_relative_base.html %}
+{% include escape-404.html %}
+<a href="{{ relativebase }}">
+    <picture>
+      <source srcset="{{ relativebase }}assets/img/404_small.jpg" media="(max-width: 768px)">
+      <source srcset="{{ relativebase }}assets/img/404.jpg">
+      <img src="{{ relativebase }}assets/img/404.jpg" alt="Page not found" class="pnf-image" style="width:100vw;max-width:unset;margin-left:calc((100% - 100vw)/2);margin-top:-16.5px;">
+    </picture>
+</a>
+{% include recent-post.html %}
+<form class="search-form inline">
+    <div id="search-container">
+        <input type="text" id="search-input" class="search" placeholder="Search">
+    </div>
+</form>
+<ul id="results-container" class="results-search"></ul>

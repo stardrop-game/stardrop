@@ -1,7 +1,8 @@
-<div class="pagination-box">
-  {% assign postCount = site.posts | size %}
-  {% assign postsCovered = site.paginate | plus:offset %}
-  {% if postsCovered < postCount %}
-    <button class="load-more btn btn-middle">Load more posts</button>
+<div class="pagination clearfix">
+  {% if paginator.previous_page %}
+    <a href="..{{ paginator.previous_page_path }}" class="previous"><i class="fa fa-angle-left" aria-hidden="true"></i> Previous</a>
   {% endif %}
-</div> <!-- /.pagination-box -->
+  {% if paginator.next_page %}
+    <a href=".{{ paginator.next_page_path }}" class="next">Next <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+  {% endif %}
+</div>
