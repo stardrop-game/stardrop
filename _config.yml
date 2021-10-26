@@ -24,18 +24,14 @@ logo-dark: "/assets/img/branding/MVM-logo-full.png"
 highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
 
 # Author settings
-author: Armando Maynez # add your name
-author-pic: Myself_Neon_grey.jpg
-about-author: Engineer, industry executive, research enthusiast. Avid learner with diverse interests in coding, machine learning, artificial intelligence and reinforcement learning. 17+ years of experience working in multinational corporations.
+author: Star Drop # add your name
+author-pic: profile.png
+about-author: 반갑습니다! Star Drop 개발자 입니다 <br>Star Drop은 가운데로 날아오는 노트에 맞춰서 키보드를 타격하는 리듬게임입니다
 
 # Contact links
-email: armando.maynez@gmail.com # Add your Email address
+email: stardrop2116@gmail.com # Add your Email address
 phone: # Add your Phone number
-website: https://amaynez.github.io # Add your website
-linkedin: amaynez # Add your Linkedin handle
-github: amaynez # Add your Github handle
-twitter: '@MvmThe' # Add your Twitter handle
-bandcamp: armandomaynez # Add your Bandcamp username
+website: https://stardrop-game.github.io/stardrop/ # Add your website
 
 # Newsletter
 mailchimp: "https://github.us1.list-manage.com/subscribe/post?u=8ece198b3eb260e6838461a60&amp;id=397d90b5f4"
