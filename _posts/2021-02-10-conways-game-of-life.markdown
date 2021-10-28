@@ -17,4 +17,9 @@ Length : 3'51" <br>
 BPM : 128 <br>
 Difficulty : Normal <br>
 
-<iframe width="720" height ="405" src="https://www.youtube.com/embed/PRydgNh5yYM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-container">
+    <iframe class="youtube-video" src="https://www.youtube.com/embed/PRydgNh5yYM" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen></iframe>
+</div>
