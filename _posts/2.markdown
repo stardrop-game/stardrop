@@ -11,11 +11,11 @@ author: 김락효 & Star Drop
 github: amaynez/GameOfLife/
 ---
 <h2>Title : Lanterns</h2>
-Artist : Xomu <br>
-Editor : 김락효 & Star Drop <br>
-Length : 3'51" <br>
-BPM : 128 <br>
-Difficulty : Normal <br>
+<h4>Artist : Xomu </h4>
+<h4>Editor : 김락효 & Star Drop </h4>
+<h4>Length : 3'51" </h4>
+<h4>BPM : 128 </h4>
+<h4>Difficulty : Normal </h4>
 
 <div class="video-container">
     <iframe class="youtube-video" src="https://www.youtube.com/embed/PRydgNh5yYM" 
